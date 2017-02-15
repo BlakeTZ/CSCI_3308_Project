@@ -2,6 +2,7 @@
 CU 2017 Spring CSCI 3308 Team project
 
 Group memebers:
+
 Yonghao Zhang (SilentSinger)
 
 Xinyi Zhang (Hathaaaway)
