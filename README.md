@@ -73,6 +73,6 @@ Project Tracking software:
 
 Gonna use Trello to track the process of each group member.
 
-Link: https://trello.com/silentsinger
+Link: https://trello.com/b/qrnLlnos/3308-project
 
-Project plan: created from your Project Tracking software. Copy-paste the plan (or screenshot of) from your project tracking software into the repository.
+Project plan: included in the repository.
