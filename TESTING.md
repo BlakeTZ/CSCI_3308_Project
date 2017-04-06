@@ -1,7 +1,12 @@
-1. Who: Yonghao Zhang (SilentSinger)
+1. Who: 
+        Yonghao Zhang (SilentSinger)
+        
         Xinyi Zhang (Hathaaaway)
+        
         Tianlun Zhao (BlakeTZ)
+        
         Yidong Gao (YidongGao)
+        
         Zhuangzhuang jiang (jzz0917)
 
 2. Title: launching!!
@@ -9,36 +14,62 @@
 3. Vision: See how far you could launch the rabbit. A little game that worked properly in one hand. Great 2 minutes game for spare time.
 
 4. Automated Tests:
+
     https://developer.apple.com/xcode/
+    
     As we are using the Xcode to develop the IOS app, we could perform the automated tests through the compiler directly.
+    
     When running the code for test, we got running successfully along with the output:
+    
     2017-04-06 16:19:41.860831-0600 Angry Duck - 2[659:61309] [DYMTLInitPlatform] platform initialization successful
+    
     2017-04-06 16:19:42.202763-0600 Angry Duck - 2[659:61258] Metal GPU Frame Capture Enabled
+    
     2017-04-06 16:19:42.203374-0600 Angry Duck - 2[659:61258] Metal API Validation Enabled
+    
     2017-04-06 16:19:42.237391-0600 Angry Duck - 2[659:61258] libMobileGestalt MobileGestaltSupport.m:153: pid 659 (Angry Duck - 2) does not have sandbox access for frZQaeyWLUvLjeuEK43hmg and IS NOT appropriately entitled
+    
     2017-04-06 16:19:42.237473-0600 Angry Duck - 2[659:61258] libMobileGestalt MobileGestalt.c:550: no access to InverseDeviceID (see <rdar://problem/11744455>)
 
 5. User Acceptance Tests:
+
 Test 1
+
 Use case name
+
     Launch the rabbit in random angles.
+    
 Description
+
     Test whether the user could launch the rabbit smoothly without any delay.
+    
 Pre-conditions
+
     Main menu could work properly.
+    
 Test steps
     1. Open the game through the testing device
     2. Open the main menu and push start button
     3. Launch the rabbit in random angles
+    
 Expected result
+
     The rabbit could launch properly without any delay. User should also test the counter position that make sure the rabbit could launch in the nagative direction.
+    
 Actual result
+
     Rabbit would be able to launch at any angles. Some delay might occur if the user push the rabbit downwards. In this case, user needed to point the rabbit in order to launch it.
+    
 Status (Pass/Fail)
+
     Pass
+    
 Notes
+
     Need a little bit change about the downwards angle.
+    
 Post-conditions
+
     User is able to launch the rabbit properly. The game could start normally.
 
 
