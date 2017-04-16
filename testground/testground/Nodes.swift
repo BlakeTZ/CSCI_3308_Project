@@ -1,10 +1,7 @@
 ﻿//
 //  Nodes.swift
 //  testground
-//
-//  Created by 张勇昊 on 4/9/17.
-//  Copyright © 2017 . All rights reserved.
-//
+ 
 
 import SpriteKit
 
